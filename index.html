@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
+    <header class="sticky-top">
         
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -21,9 +21,15 @@
               <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#">Promoções</a>
+                    <a class="nav-link active" href="#promos">Promoções</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#masculino">Masculino</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#feminino">Feminino</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                       Masculino
                     </a>
@@ -56,7 +62,7 @@
                         </li>
                       
                     </ul>
-                  </li>
+                  </li> -->
                 </ul>
                 <form class="d-flex input-group" role="search">
                     <input class="form-control" type="search" placeholder="Procurar" aria-label="Search">
@@ -91,11 +97,10 @@
     <section id="masculino" class="p-5">
         <h2 class="mb-4">Masculino</h2>
         <div class="container">
-            <div class="row">
-                <div class="card col m-2">
-                    <a href="#">
+            <div class="row justify-content-between">
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
                     <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
-                    
+                    <a href="#">
                         <div class="card-body">
                             <h4>Tenis Masculino</h4>
                             <s>R$ 299,99</s>
@@ -103,10 +108,9 @@
                         </div>
                     </a>
                 </div>
-                <div class="card col m-2">
-                    <a href="#">
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
                     <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
-                    
+                    <a href="#">
                         <div class="card-body">
                             <h4>Tenis Masculino</h4>
                             <s>R$ 299,99</s>
@@ -114,12 +118,49 @@
                         </div>
                     </a>
                 </div>
-                <div class="card col m-2">
-                    <a href="#">
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
                     <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
-                    
+                    <a href="#">
                         <div class="card-body">
                             <h4>Tenis Masculino</h4>
+                            <s>R$ 299,99</s>
+                            <strong>R$ 199,99</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="feminino" class="p-5">
+        <h2 class="mb-4">Feminino</h2>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
+                    <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
+                    <a href="#">
+                        <div class="card-body">
+                            <h4>Tenis Feminino</h4>
+                            <s>R$ 299,99</s>
+                            <strong>R$ 199,99</strong>
+                        </div>
+                    </a>
+                </div>
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
+                    <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
+                    <a href="#">
+                        <div class="card-body">
+                            <h4>Tenis Feminino</h4>
+                            <s>R$ 299,99</s>
+                            <strong>R$ 199,99</strong>
+                        </div>
+                    </a>
+                </div>
+                <div class="card col-lg-3 col-md-5 col-xs-11 m-2">
+                    <img class="mt-3" src="https://via.placeholder.com/180x180" alt="">
+                    <a href="#">
+                        <div class="card-body">
+                            <h4>Tenis Feminino</h4>
                             <s>R$ 299,99</s>
                             <strong>R$ 199,99</strong>
                         </div>
