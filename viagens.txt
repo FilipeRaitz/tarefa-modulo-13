@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">aterrissar.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Promoções</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pacotes
+                    </a>
+                    <form class="dropdown-menu p-2" action="">
+                        <div class="form-floating">
+                            <input class="form-control" id="destino-pacote" type="text" placeholder="Qual é seu destino?">
+                            <label class="form-label" for="destino-pacote">Destino</label>
+                        </div>
+                        <label class="form-label" for="data-chegada">Ida</label>
+                        <input class="form-control" id="data-chegada" type="date">
+                        <label class="form-label" for="data-saida">Volta</label>
+                        <input class="form-control" id="data-saida" type="date">
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Acomodações
+                    </a>
+                    <form class="dropdown-menu p-2" action="">
+                        <div class="form-floating">
+                            <input class="form-control" id="destino-acomodacao" type="text" placeholder="Qual é seu destino?">
+                            <label class="form-label" for="destino-acomodacao">Destino</label>
+                        </div>
+                        <label class="form-label" for="data-chegada">Ida</label>
+                        <input class="form-control" id="data-chegada" type="date">
+                        <label class="form-label" for="data-saida">Volta</label>
+                        <input class="form-control" id="data-saida" type="date">
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                    </form>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Passagens Aéreas
+                    </a>
+                    <form class="dropdown-menu p-2" action="">
+                        <div class="form-floating">
+                            <input class="form-control" id="destino-passagem" type="text" placeholder="Qual é seu destino?">
+                            <label class="form-label" for="destino-passagem">Destino</label>
+                        </div>
+                        <label class="form-label" for="data-ida">Ida</label>
+                        <input class="form-control" id="data-ida" type="date">
+                        <div class="mb-3">
+                            <input class="form-check-input" type="checkbox" name="checar-so-ida" id="checar-so-ida">
+                            <label class="form-check-label" for="checar-so-ida">Só ida ou só volta</label>
+                        </div>
+                        <label class="form-label" for="data-volta">Volta</label>
+                        <input class="form-control" id="data-volta" type="date">
+                        
+                        
+                        <button class="btn btn-primary" type="submit">Pesquisar</button>
+                    </form>
+                </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
